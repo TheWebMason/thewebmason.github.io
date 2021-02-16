@@ -1,30 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import * as React from 'react';
+import Container from '@material-ui/core/Container';
+import Typography from '@material-ui/core/Typography';
+import Copyright from './Copyright';
+import useStyles from './styles';
+import { useTheme } from '@material-ui/core/styles';
 
 
-function refreshPage() {
-  window.location.reload();
-}
 
 function App() {
+  const theme = useTheme();
+  const classes = useStyles(theme);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>The<code>WebMason</code></p>
-        <a
-          className="App-link"
-          //href="https://thewebmason.org"
-          rel="noopener noreferrer"
-          //target="_blank"
-          href="."
-          onClick={() => refreshPage()}
-        >
-          <span>Reload</span>
-        </a>
-        <p><code>Coming soon...</code></p>
-      </header>
+    <div className={classes.root}>
+      <Container component="main" className={classes.main} maxWidth="sm">
+        <Typography variant="h2" component="h1" gutterBottom>
+          TheWebMason
+        </Typography>
+        <Typography variant="h5" component="h2" gutterBottom>
+          {'Coming soon...'}
+        </Typography>
+        {/*<Typography variant="body1">...</Typography>*/}
+      </Container>
+      <footer className={classes.footer}>
+        <Container maxWidth="sm">
+          <Copyright />
+        </Container>
+      </footer>
     </div>
   );
 }
