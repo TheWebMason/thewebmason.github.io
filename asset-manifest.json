@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "./static/css/main.7a3228d7.chunk.css",
-    "main.js": "./static/js/main.db51a76b.chunk.js",
-    "main.js.map": "./static/js/main.db51a76b.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.040e787b.js",
-    "runtime-main.js.map": "./static/js/runtime-main.040e787b.js.map",
+    "main.js": "./static/js/main.63eed5c3.chunk.js",
+    "main.js.map": "./static/js/main.63eed5c3.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.ab3df9a0.js",
+    "runtime-main.js.map": "./static/js/runtime-main.ab3df9a0.js.map",
     "static/css/2.b38a7ff6.chunk.css": "./static/css/2.b38a7ff6.chunk.css",
-    "static/js/2.d6541015.chunk.js": "./static/js/2.d6541015.chunk.js",
-    "static/js/2.d6541015.chunk.js.map": "./static/js/2.d6541015.chunk.js.map",
-    "static/js/3.ddbe9a62.chunk.js": "./static/js/3.ddbe9a62.chunk.js",
-    "static/js/3.ddbe9a62.chunk.js.map": "./static/js/3.ddbe9a62.chunk.js.map",
+    "static/js/2.8266b902.chunk.js": "./static/js/2.8266b902.chunk.js",
+    "static/js/2.8266b902.chunk.js.map": "./static/js/2.8266b902.chunk.js.map",
+    "static/js/3.de31cee6.chunk.js": "./static/js/3.de31cee6.chunk.js",
+    "static/js/3.de31cee6.chunk.js.map": "./static/js/3.de31cee6.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.b38a7ff6.chunk.css.map": "./static/css/2.b38a7ff6.chunk.css.map",
     "static/css/main.7a3228d7.chunk.css.map": "./static/css/main.7a3228d7.chunk.css.map",
-    "static/js/2.d6541015.chunk.js.LICENSE.txt": "./static/js/2.d6541015.chunk.js.LICENSE.txt",
-    "static/js/main.db51a76b.chunk.js.LICENSE.txt": "./static/js/main.db51a76b.chunk.js.LICENSE.txt",
+    "static/js/2.8266b902.chunk.js.LICENSE.txt": "./static/js/2.8266b902.chunk.js.LICENSE.txt",
+    "static/js/main.63eed5c3.chunk.js.LICENSE.txt": "./static/js/main.63eed5c3.chunk.js.LICENSE.txt",
     "static/media/ScreenAbout.scss": "./static/media/bg-about2.bd6051af.png",
     "static/media/ScreenJoin.scss": "./static/media/bg-join.0e92caab.png",
     "static/media/ScreenTeam.scss": "./static/media/bg-team.5fc4233e.png",
@@ -43,10 +43,10 @@
     "static/media/twitter.5604398b.svg": "./static/media/twitter.5604398b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.040e787b.js",
+    "static/js/runtime-main.ab3df9a0.js",
     "static/css/2.b38a7ff6.chunk.css",
-    "static/js/2.d6541015.chunk.js",
+    "static/js/2.8266b902.chunk.js",
     "static/css/main.7a3228d7.chunk.css",
-    "static/js/main.db51a76b.chunk.js"
+    "static/js/main.63eed5c3.chunk.js"
   ]
 }
